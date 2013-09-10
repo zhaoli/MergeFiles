@@ -22,5 +22,5 @@ for files in file_list:
     file_dist.write(str('# '+files + ' #' +'\n').encode('utf-8'))
     file_dist.write(file_content)
     file_source.close()
+print(file_dist.read())
 file_dist.close()
-print(file_dist)
